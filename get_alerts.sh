@@ -3,7 +3,7 @@
 OUTPUT_FILE="alerts.json"
 TEMP_FILE=$(mktemp)
 
-if [! -f "$OUTPUT_FILE"]; then
+if [ ! -f "$OUTPUT_FILE" ]; then
     echo "[]" > "$OUTPUT_FILE"
     echo "Created new JSON file"
 fi
@@ -37,4 +37,4 @@ git config user.name "github-actions[bot]"
 git config user.email "github-actions[bot]@useres.noreply.github.com"
 git add "$OUTPUT_FILE"
 git commit -m "Daily weather alert update" || echo "No changes"
-git push origin main
+git push origin master
