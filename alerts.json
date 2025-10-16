@@ -104,6 +104,32 @@
     ]
   },
   {
+    "id": "urn:oid:2.49.0.1.840.0-KEEPALIVE-12922",
+    "headline": null,
+    "description": "Monitoring message only. Please disregard.",
+    "event": "Test Message",
+    "certainty": "Unknown",
+    "response": "None",
+    "severity": "Unknown",
+    "sent": "2025-10-16T19:34:02+00:00",
+    "urgency": "Unknown",
+    "effective": "2025-10-16T19:34:02+00:00",
+    "onset": null,
+    "ends": null,
+    "areaDesc": "Montgomery",
+    "geoCode": {
+      "SAME": [
+        "024031"
+      ],
+      "UGC": [
+        "MDC031"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/MDC031"
+    ]
+  },
+  {
     "id": "urn:oid:2.49.0.1.840.0-KEEPALIVE-13115",
     "headline": null,
     "description": "Monitoring message only. Please disregard.",
@@ -1924,6 +1950,32 @@
     ]
   },
   {
+    "id": "urn:oid:2.49.0.1.840.0-KEEPALIVE-55728",
+    "headline": null,
+    "description": "Monitoring message only. Please disregard.",
+    "event": "Test Message",
+    "certainty": "Unknown",
+    "response": "None",
+    "severity": "Unknown",
+    "sent": "2025-10-16T19:44:02+00:00",
+    "urgency": "Unknown",
+    "effective": "2025-10-16T19:44:02+00:00",
+    "onset": null,
+    "ends": null,
+    "areaDesc": "Montgomery",
+    "geoCode": {
+      "SAME": [
+        "024031"
+      ],
+      "UGC": [
+        "MDC031"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/MDC031"
+    ]
+  },
+  {
     "id": "urn:oid:2.49.0.1.840.0-KEEPALIVE-56726",
     "headline": null,
     "description": "Monitoring message only. Please disregard.",
@@ -2959,6 +3011,110 @@
     ]
   },
   {
+    "id": "urn:oid:2.49.0.1.840.0.0fa9c5f1c6793f048b753d124215a5cec2a33556.001.1",
+    "headline": "Small Craft Advisory issued October 16 at 12:44PM PDT until October 17 at 3:00AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Hazardous sea conditions.\n\n* WHERE...Outer waters from Santa Cruz Island to San Clemente\nIsland to 60 NM offshore including San Nicolas and Santa\nBarbara Islands.\n\n* WHEN...Until 3 AM PDT Friday.\n\n* IMPACTS...Conditions will be hazardous to small craft.\n\n* ADDITIONAL DETAILS...See the Coastal Waters Forecast (CWFLOX)\nfor more.",
+    "event": "Small Craft Advisory",
+    "certainty": "Likely",
+    "response": "Avoid",
+    "severity": "Minor",
+    "sent": "2025-10-16T12:44:00-07:00",
+    "urgency": "Expected",
+    "effective": "2025-10-16T12:44:00-07:00",
+    "onset": "2025-10-16T12:44:00-07:00",
+    "ends": "2025-10-17T03:00:00-07:00",
+    "areaDesc": "Outer waters from Santa Cruz Island to San Clemente Island to 60 NM offshore including San Nicolas and Santa Barbara Islands",
+    "geoCode": {
+      "SAME": [
+        "057676"
+      ],
+      "UGC": [
+        "PZZ676"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/PZZ676"
+    ]
+  },
+  {
+    "id": "urn:oid:2.49.0.1.840.0.0fa9c5f1c6793f048b753d124215a5cec2a33556.002.1",
+    "headline": "Small Craft Advisory issued October 16 at 12:44PM PDT until October 16 at 9:00PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Hazardous sea conditions.\n\n* WHERE...Point Piedras Blancas to Point Sal westward out to 10\nNM.\n\n* WHEN...Until 9 PM PDT this evening.\n\n* IMPACTS...Conditions will be hazardous to small craft.\n\n* ADDITIONAL DETAILS...See the Coastal Waters Forecast (CWFLOX)\nfor more.",
+    "event": "Small Craft Advisory",
+    "certainty": "Likely",
+    "response": "Avoid",
+    "severity": "Minor",
+    "sent": "2025-10-16T12:44:00-07:00",
+    "urgency": "Expected",
+    "effective": "2025-10-16T12:44:00-07:00",
+    "onset": "2025-10-16T12:44:00-07:00",
+    "ends": "2025-10-16T21:00:00-07:00",
+    "areaDesc": "Point Piedras Blancas to Point Sal westward out to 10 NM",
+    "geoCode": {
+      "SAME": [
+        "057645"
+      ],
+      "UGC": [
+        "PZZ645"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/PZZ645"
+    ]
+  },
+  {
+    "id": "urn:oid:2.49.0.1.840.0.0fa9c5f1c6793f048b753d124215a5cec2a33556.003.1",
+    "headline": "Small Craft Advisory issued October 16 at 12:44PM PDT until October 17 at 3:00AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Hazardous sea conditions.\n\n* WHERE...Point Piedras Blancas to Point Sal from 10 to 60 NM.\n\n* WHEN...Until 3 AM PDT Friday.\n\n* IMPACTS...Conditions will be hazardous to small craft.\n\n* ADDITIONAL DETAILS...See the Coastal Waters Forecast (CWFLOX)\nfor more.",
+    "event": "Small Craft Advisory",
+    "certainty": "Likely",
+    "response": "Avoid",
+    "severity": "Minor",
+    "sent": "2025-10-16T12:44:00-07:00",
+    "urgency": "Expected",
+    "effective": "2025-10-16T12:44:00-07:00",
+    "onset": "2025-10-16T12:44:00-07:00",
+    "ends": "2025-10-17T03:00:00-07:00",
+    "areaDesc": "Point Piedras Blancas to Point Sal from 10 to 60 NM",
+    "geoCode": {
+      "SAME": [
+        "057670"
+      ],
+      "UGC": [
+        "PZZ670"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/PZZ670"
+    ]
+  },
+  {
+    "id": "urn:oid:2.49.0.1.840.0.0fa9c5f1c6793f048b753d124215a5cec2a33556.004.1",
+    "headline": "Small Craft Advisory issued October 16 at 12:44PM PDT until October 17 at 9:00AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Hazardous sea conditions.\n\n* WHERE...Waters from Pt. Sal to Santa Cruz Island CA and\nwestward 60 nm including San Miguel and Santa Rosa Islands.\n\n* WHEN...Until 9 AM PDT Friday.\n\n* IMPACTS...Conditions will be hazardous to small craft.\n\n* ADDITIONAL DETAILS...See the Coastal Waters Forecast (CWFLOX)\nfor more.",
+    "event": "Small Craft Advisory",
+    "certainty": "Likely",
+    "response": "Avoid",
+    "severity": "Minor",
+    "sent": "2025-10-16T12:44:00-07:00",
+    "urgency": "Expected",
+    "effective": "2025-10-16T12:44:00-07:00",
+    "onset": "2025-10-16T12:44:00-07:00",
+    "ends": "2025-10-17T09:00:00-07:00",
+    "areaDesc": "Waters from Pt. Sal to Santa Cruz Island CA and westward 60 nm including San Miguel and Santa Rosa Islands",
+    "geoCode": {
+      "SAME": [
+        "057673"
+      ],
+      "UGC": [
+        "PZZ673"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/PZZ673"
+    ]
+  },
+  {
     "id": "urn:oid:2.49.0.1.840.0.12a0665749e50762a7818a9878499e94d1773d41.001.1",
     "headline": "Marine Weather Statement issued October 16 at 7:07AM EDT by NWS Gaylord MI",
     "description": "The St Marys river system remains closed to vessel navigation due\nto dense fog. The fog is likely to continue during the next few\nhours this morning before diminishing by the mid to late morning\nhours.",
@@ -3877,6 +4033,99 @@
     },
     "affectedZones": [
       "https://api.weather.gov/zones/forecast/NCZ107"
+    ]
+  },
+  {
+    "id": "urn:oid:2.49.0.1.840.0.28019ca41d1a6d1b6b61d085ca9d77ea9cccbcaf.001.1",
+    "headline": "Small Craft Advisory issued October 16 at 3:42PM EDT until October 17 at 10:00AM EDT by NWS Mount Holly NJ",
+    "description": "* WHAT...North winds 15 to 25 kt with gusts up to 30 kt and\nrough waters.\n\n* WHERE...Delaware Bay waters.\n\n* WHEN...Until 10 AM EDT Friday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+    "event": "Small Craft Advisory",
+    "certainty": "Likely",
+    "response": "Avoid",
+    "severity": "Minor",
+    "sent": "2025-10-16T15:42:00-04:00",
+    "urgency": "Expected",
+    "effective": "2025-10-16T15:42:00-04:00",
+    "onset": "2025-10-16T15:42:00-04:00",
+    "ends": "2025-10-17T10:00:00-04:00",
+    "areaDesc": "Delaware Bay waters north of East Point NJ to Slaughter Beach DE; Delaware Bay waters south of East Point NJ to Slaughter Beach DE",
+    "geoCode": {
+      "SAME": [
+        "073430",
+        "073431"
+      ],
+      "UGC": [
+        "ANZ430",
+        "ANZ431"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/ANZ430",
+      "https://api.weather.gov/zones/forecast/ANZ431"
+    ]
+  },
+  {
+    "id": "urn:oid:2.49.0.1.840.0.28019ca41d1a6d1b6b61d085ca9d77ea9cccbcaf.002.1",
+    "headline": "Small Craft Advisory issued October 16 at 3:42PM EDT until October 17 at 6:00PM EDT by NWS Mount Holly NJ",
+    "description": "* WHAT...North winds 15 to 25 kt with gusts up to 30 kt and seas\n4 to 7 ft.\n\n* WHERE...Coastal waters from Manasquan Inlet NJ to to Fenwick\nIsland DE out 20 nm.\n\n* WHEN...Until 6 PM EDT Friday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+    "event": "Small Craft Advisory",
+    "certainty": "Likely",
+    "response": "Avoid",
+    "severity": "Minor",
+    "sent": "2025-10-16T15:42:00-04:00",
+    "urgency": "Expected",
+    "effective": "2025-10-16T15:42:00-04:00",
+    "onset": "2025-10-16T15:42:00-04:00",
+    "ends": "2025-10-17T18:00:00-04:00",
+    "areaDesc": "Coastal waters from Manasquan Inlet to Little Egg Inlet NJ out 20 nm; Coastal waters from Little Egg Inlet to Great Egg Inlet NJ out 20 nm; Coastal waters from Great Egg Inlet to Cape May NJ out 20 nm; Coastal waters from Cape May NJ to Cape Henlopen DE out 20 nm; Coastal waters from Cape Henlopen to Fenwick Island DE out 20 nm",
+    "geoCode": {
+      "SAME": [
+        "073451",
+        "073452",
+        "073453",
+        "073454",
+        "073455"
+      ],
+      "UGC": [
+        "ANZ451",
+        "ANZ452",
+        "ANZ453",
+        "ANZ454",
+        "ANZ455"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/ANZ451",
+      "https://api.weather.gov/zones/forecast/ANZ452",
+      "https://api.weather.gov/zones/forecast/ANZ453",
+      "https://api.weather.gov/zones/forecast/ANZ454",
+      "https://api.weather.gov/zones/forecast/ANZ455"
+    ]
+  },
+  {
+    "id": "urn:oid:2.49.0.1.840.0.28019ca41d1a6d1b6b61d085ca9d77ea9cccbcaf.003.1",
+    "headline": "Small Craft Advisory issued October 16 at 3:42PM EDT until October 17 at 12:00PM EDT by NWS Mount Holly NJ",
+    "description": "* WHAT...North winds 15 to 25 kt with gusts up to 30 kt and seas\n3 to 6 ft.\n\n* WHERE...Coastal waters from Sandy Hook to Manasquan Inlet NJ\nout 20 nm.\n\n* WHEN...Until noon EDT Friday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+    "event": "Small Craft Advisory",
+    "certainty": "Likely",
+    "response": "Avoid",
+    "severity": "Minor",
+    "sent": "2025-10-16T15:42:00-04:00",
+    "urgency": "Expected",
+    "effective": "2025-10-16T15:42:00-04:00",
+    "onset": "2025-10-16T15:42:00-04:00",
+    "ends": "2025-10-17T12:00:00-04:00",
+    "areaDesc": "Coastal waters from Sandy Hook to Manasquan Inlet NJ out 20 nm",
+    "geoCode": {
+      "SAME": [
+        "073450"
+      ],
+      "UGC": [
+        "ANZ450"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/ANZ450"
     ]
   },
   {
@@ -5046,6 +5295,79 @@
     },
     "affectedZones": [
       "https://api.weather.gov/zones/forecast/PKZ036"
+    ]
+  },
+  {
+    "id": "urn:oid:2.49.0.1.840.0.43c9e50ce2b5c77c48b5c111f923eaf5feb005d7.001.1",
+    "headline": "The Dense Fog Advisory has been cancelled.",
+    "description": "The Dense Fog Advisory has been cancelled and is no longer in effect.",
+    "event": "Dense Fog Advisory",
+    "certainty": "Observed",
+    "response": "AllClear",
+    "severity": "Minor",
+    "sent": "2025-10-16T14:28:00-05:00",
+    "urgency": "Past",
+    "effective": "2025-10-16T14:28:00-05:00",
+    "onset": "2025-10-16T14:28:00-05:00",
+    "ends": "2025-10-17T01:00:00-05:00",
+    "areaDesc": "Barnes",
+    "geoCode": {
+      "SAME": [
+        "038003"
+      ],
+      "UGC": [
+        "NDZ038"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/NDZ038"
+    ]
+  },
+  {
+    "id": "urn:oid:2.49.0.1.840.0.43c9e50ce2b5c77c48b5c111f923eaf5feb005d7.002.1",
+    "headline": "Dense Fog Advisory issued October 16 at 2:28PM CDT until October 17 at 1:00AM CDT by NWS Grand Forks ND",
+    "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Benson, Cavalier, Eddy, Nelson, Ramsey, Towner, Western\nWalsh, and Griggs Counties.\n\n* WHEN...Until 1 AM CDT Friday.\n\n* IMPACTS...Low visibility could make driving conditions hazardous.",
+    "event": "Dense Fog Advisory",
+    "certainty": "Likely",
+    "response": "Execute",
+    "severity": "Moderate",
+    "sent": "2025-10-16T14:28:00-05:00",
+    "urgency": "Expected",
+    "effective": "2025-10-16T14:28:00-05:00",
+    "onset": "2025-10-16T14:28:00-05:00",
+    "ends": "2025-10-17T01:00:00-05:00",
+    "areaDesc": "Towner; Cavalier; Benson; Ramsey; Eddy; Nelson; Griggs; Western Walsh County",
+    "geoCode": {
+      "SAME": [
+        "038095",
+        "038019",
+        "038005",
+        "038071",
+        "038027",
+        "038063",
+        "038039",
+        "038099"
+      ],
+      "UGC": [
+        "NDZ006",
+        "NDZ007",
+        "NDZ014",
+        "NDZ015",
+        "NDZ024",
+        "NDZ026",
+        "NDZ028",
+        "NDZ054"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/NDZ006",
+      "https://api.weather.gov/zones/forecast/NDZ007",
+      "https://api.weather.gov/zones/forecast/NDZ014",
+      "https://api.weather.gov/zones/forecast/NDZ015",
+      "https://api.weather.gov/zones/forecast/NDZ024",
+      "https://api.weather.gov/zones/forecast/NDZ026",
+      "https://api.weather.gov/zones/forecast/NDZ028",
+      "https://api.weather.gov/zones/forecast/NDZ054"
     ]
   },
   {
