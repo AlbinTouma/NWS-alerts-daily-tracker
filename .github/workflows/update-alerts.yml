@@ -1,0 +1,27 @@
+name: "Update Weather Alerts Daily"
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
+      
+      - name: Install jq
+        run: sudo apt-get install -y jq
+      
+      - name: Get weather data
+        run: bash ./get_alerts.sh
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+      
